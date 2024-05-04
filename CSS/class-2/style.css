@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_section {
+  border: 2px solid;
+  padding: 10px;
+}
+
+.sub_main {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  justify-content: flex-start;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aliceblue;  it won't work coz class value has less than id value  (s>i>c>t>u)*/
+}
+
+#box1 {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  /* margin-right: 30px; */
+  /* order: 4; */
+  /* flex-grow: 1; */
+}
+
+#box2 {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+}
+
+#box3 {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  text-align: center;
+  /* order: 2; */
+}
+
+#box4 {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  text-align: center;
+  /* order: 1; */
+}

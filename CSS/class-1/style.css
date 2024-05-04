@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.main_section {
+  border: 5px solid aqua;
+  background-color: #212121;
+  color: #fff;
+  font-family: "Briem Hand", cursive;
+}
+
+#heading {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+#sub_heading {
+  text-align: center;
+  color: aqua;
+  font-size: 2em;
+}
+
+img {
+  display: block;
+  width: 300px;
+  margin: 30px auto;
+  border-radius: 50%;
+}
+
+.paragraph {
+  padding: 10px;
+  text-align: justify;
+}
