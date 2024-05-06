@@ -6,11 +6,12 @@
     <title>class-2</title>
   </head>
   <body>
-    <h1>SignUp Form:</h1>
-    <div>
+    <h1>SIGNUP FORM</h1>
+    <div style="border: 1px solid; width: 500px; padding: 10px">
       <form>
         <div>
           <label for="username">Username:</label>
+          <br />
           <input
             type="text"
             name="username"
@@ -18,8 +19,10 @@
             placeholder="Enter username"
           />
         </div>
+        <br />
         <div>
           <label for="email">Email:</label>
+          <br />
           <input
             type="email"
             name="email"
@@ -27,8 +30,10 @@
             placeholder="Enter email"
           />
         </div>
+        <br />
         <div>
           <label for="password">Password:</label>
+          <br />
           <input
             type="password"
             name="password"
@@ -36,14 +41,18 @@
             placeholder="Enter password"
           />
         </div>
+        <br />
         <div>
           <label for="gender">Gender:</label>
           <select name="gender" id="gender">
             Select Gender
+            <option value="male">Choose your gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
+            <option value="female">Other</option>
           </select>
         </div>
+        <br />
         <div>
           <label for="upload">Upload Profile Picture:</label>
           <input
@@ -53,10 +62,12 @@
             placeholder="Upload your picture"
           />
         </div>
+        <br />
         <div>
           <label for="rating">Ratings:</label>
           <input type="range" name="rating" id="rating" placeholder="Ratings" />
         </div>
+        <br />
         <div>
           <label for="agree">I agree:</label>
           <input
@@ -66,6 +77,7 @@
             placeholder="Terms and conditions"
           />
         </div>
+        <br />
         <button type="submit">Sign Up</button>
       </form>
     </div>
