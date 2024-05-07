@@ -34,8 +34,8 @@
   background-color: red;
   text-align: center;
   /* margin-right: 30px; */
-  /* order: 4; */
   /* flex-grow: 1; */
+  /* order: 4; */
 }
 
 #box2 {
@@ -44,6 +44,7 @@
   height: 100px;
   background-color: blue;
   text-align: center;
+  /* order: 1; */
 }
 
 #box3 {
@@ -61,5 +62,5 @@
   height: 100px;
   background-color: chartreuse;
   text-align: center;
-  /* order: 1; */
+  /* order: 3; */
 }
