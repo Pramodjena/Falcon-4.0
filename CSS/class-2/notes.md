@@ -66,3 +66,35 @@ Flexbox provides several properties to control the layout of flex containers and
 ## Conclusion
 
 CSS Flexbox is a versatile tool for creating responsive and dynamic layouts in web development. By mastering Flexbox, you'll have more control over the arrangement and alignment of elements on your web pages.
+
+# CSS units:
+
+1. px (1inch = 96px)
+2. em (16px)
+3. rem (16px)
+
+examples: font-size: 16px;
+2em = 2*16px = 32px;
+2rem = 2*16px = 32px;
+
+## margin :
+
+1. margin-top
+2. margin-right
+3. margin-bottom
+4. margin-left
+
+## padding :
+
+1. padding-top
+2. padding-left
+3. padding-right
+4. padding-bottom
+
+## block element : it takes the whole width of it's area.
+
+example : h1...h6,p,div etc
+
+## inline element : it takes ony the required width of it's area.
+
+example : span,a,img,input etc

@@ -11,6 +11,7 @@ body {
   background-color: #aeaaaa;
   max-width: 1000px;
   margin: 50px auto;
+  position: relative;
 }
 .box {
   border: 1px solid;
