@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.periodic-table {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(18, 50px);
+  grid-template-rows: repeat(10, 30px);
+  gap: 5px;
+  border: 1px solid #aaa;
+  margin: 0 auto;
+}
+
+.element {
+  font-size: 0.5rem;
+  background-color: #f3f3f3;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #aaa;
+}
+
+.element[data-symbol="H"] {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.element[data-symbol="He"] {
+  grid-column: 18 / span 1;
+  grid-row: 1 / span 1;
+}
+.element[data-symbol="Li"] {
+}
+.element[data-symbol="Be"] {
+}
+.element[data-symbol="B"] {
+}
+.element[data-symbol="C"] {
+}
+.element[data-symbol="N"] {
+}
+.element[data-symbol="O"] {
+}
+.element[data-symbol="F"] {
+}
+.element[data-symbol="Ne"] {
+}
+.element[data-symbol="Na"] {
+}
+.element[data-symbol="Mg"] {
+}
+.element[data-symbol="Al"] {
+}
+.element[data-symbol="Si"] {
+}
+.element[data-symbol="P"] {
+}
+.element[data-symbol="S"] {
+}
+.element[data-symbol="Cl"] {
+}
+.element[data-symbol="Ar"] {
+}
+.element[data-symbol="K"] {
+}
+.element[data-symbol="Ca"] {
+}
+.element[data-symbol="Sc"] {
+}
+.element[data-symbol="Ti"] {
+}
+.element[data-symbol="V"] {
+}
+.element[data-symbol="Cr"] {
+}
+.element[data-symbol="Mn"] {
+}
+.element[data-symbol="Fe"] {
+}
+.element[data-symbol="Co"] {
+}
+.element[data-symbol="Ni"] {
+}
+.element[data-symbol="Cu"] {
+}
+.element[data-symbol="Zn"] {
+}
+.element[data-symbol="Ga"] {
+}
+.element[data-symbol="Ge"] {
+}
+.element[data-symbol="As"] {
+}
+.element[data-symbol="Se"] {
+}
+.element[data-symbol="Br"] {
+}
+.element[data-symbol="Kr"] {
+}
+.element[data-symbol="Rb"] {
+}
+.element[data-symbol="Sr"] {
+}
+.element[data-symbol="Y"] {
+}
+.element[data-symbol="Zr"] {
+}
+.element[data-symbol="Nb"] {
+}
+.element[data-symbol="Mo"] {
+}
+.element[data-symbol="Tc"] {
+}
+.element[data-symbol="Ru"] {
+}
+.element[data-symbol="Rh"] {
+}
+.element[data-symbol="Pd"] {
+}
+.element[data-symbol="Ag"] {
+}
+.element[data-symbol="Cd"] {
+}
+.element[data-symbol="In"] {
+}
+.element[data-symbol="Sn"] {
+}
+.element[data-symbol="Sb"] {
+}
+.element[data-symbol="Te"] {
+}
+.element[data-symbol="I"] {
+}
+.element[data-symbol="Xe"] {
+}
+.element[data-symbol="Cs"] {
+}
+.element[data-symbol="Ba"] {
+}
+.element[data-symbol="La"] {
+}
+.element[data-symbol="Ce"] {
+}
+.element[data-symbol="Pr"] {
+}
+.element[data-symbol="Nd"] {
+}
+.element[data-symbol="Pm"] {
+}
+.element[data-symbol="Sm"] {
+}
+.element[data-symbol="Eu"] {
+}
+.element[data-symbol="Gd"] {
+}
+.element[data-symbol="Tb"] {
+}
+.element[data-symbol="Dy"] {
+}
+.element[data-symbol="Ho"] {
+}
+.element[data-symbol="Er"] {
+}
+.element[data-symbol="Tm"] {
+}
+.element[data-symbol="Yb"] {
+}
+.element[data-symbol="Lu"] {
+}
+.element[data-symbol="Hf"] {
+}
