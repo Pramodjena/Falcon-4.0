@@ -59,3 +59,19 @@ CSS positioning is a fundamental concept in web development that allows you to c
 ## Conclusion:
 
 Understanding CSS positioning is essential for creating well-structured and visually appealing web pages. By mastering these basic positioning techniques, you'll have greater control over the layout of your web content. Experiment with different positioning properties and see how they affect the placement of elements on your webpage.
+
+# Z-Index
+
+- The z-index property specifies the stack order of an element. An element with a higher z-index value will be placed on top of an element with a lower z-index value.
+
+```javascript
+//css
+.box1 {
+   position: relative;
+    z-index: 1;
+}
+.box2 {
+   position: relative;
+    z-index: 2;
+}
+```
