@@ -2,176 +2,215 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-.heading {
-  text-align: center;
-  font-size: 2rem;
+  font-size: 20px;
 }
 
-.periodic-table {
-  max-width: 1000px;
+.main_section {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
-  grid-template-rows: repeat(10, 30px);
-  gap: 5px;
-  border: 1px solid #aaa;
-  margin: 0 auto;
+  grid-template-columns: repeat(18, 60px);
+  grid-template-rows: repeat(10, 60px);
+  gap: 4px;
+  margin: 100px 300px;
+  /* background-color: black; */
 }
 
-.element {
-  font-size: 0.5rem;
-  background-color: #f3f3f3;
-  padding: 5px;
+.box {
+  border: 1px solid black;
   text-align: center;
-  align-items: center;
-  border: 1px solid #aaa;
+  align-content: center;
+  font-size: 1em;
 }
 
-.element[data-symbol="H"] {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
-}
-.element[data-symbol="He"] {
-  grid-column: 18 / span 1;
-  grid-row: 1 / span 1;
-}
-.element[data-symbol="Li"] {
-}
-.element[data-symbol="Be"] {
-}
-.element[data-symbol="B"] {
-}
-.element[data-symbol="C"] {
-}
-.element[data-symbol="N"] {
-}
-.element[data-symbol="O"] {
-}
-.element[data-symbol="F"] {
-}
-.element[data-symbol="Ne"] {
-}
-.element[data-symbol="Na"] {
-}
-.element[data-symbol="Mg"] {
-}
-.element[data-symbol="Al"] {
-}
-.element[data-symbol="Si"] {
-}
-.element[data-symbol="P"] {
-}
-.element[data-symbol="S"] {
-}
-.element[data-symbol="Cl"] {
-}
-.element[data-symbol="Ar"] {
-}
-.element[data-symbol="K"] {
-}
-.element[data-symbol="Ca"] {
-}
-.element[data-symbol="Sc"] {
-}
-.element[data-symbol="Ti"] {
-}
-.element[data-symbol="V"] {
-}
-.element[data-symbol="Cr"] {
-}
-.element[data-symbol="Mn"] {
-}
-.element[data-symbol="Fe"] {
-}
-.element[data-symbol="Co"] {
-}
-.element[data-symbol="Ni"] {
-}
-.element[data-symbol="Cu"] {
-}
-.element[data-symbol="Zn"] {
-}
-.element[data-symbol="Ga"] {
-}
-.element[data-symbol="Ge"] {
-}
-.element[data-symbol="As"] {
-}
-.element[data-symbol="Se"] {
-}
-.element[data-symbol="Br"] {
-}
-.element[data-symbol="Kr"] {
-}
-.element[data-symbol="Rb"] {
-}
-.element[data-symbol="Sr"] {
-}
-.element[data-symbol="Y"] {
-}
-.element[data-symbol="Zr"] {
-}
-.element[data-symbol="Nb"] {
-}
-.element[data-symbol="Mo"] {
-}
-.element[data-symbol="Tc"] {
-}
-.element[data-symbol="Ru"] {
-}
-.element[data-symbol="Rh"] {
-}
-.element[data-symbol="Pd"] {
-}
-.element[data-symbol="Ag"] {
-}
-.element[data-symbol="Cd"] {
-}
-.element[data-symbol="In"] {
-}
-.element[data-symbol="Sn"] {
-}
-.element[data-symbol="Sb"] {
-}
-.element[data-symbol="Te"] {
-}
-.element[data-symbol="I"] {
-}
-.element[data-symbol="Xe"] {
-}
-.element[data-symbol="Cs"] {
-}
-.element[data-symbol="Ba"] {
-}
-.element[data-symbol="La"] {
-}
-.element[data-symbol="Ce"] {
-}
-.element[data-symbol="Pr"] {
-}
-.element[data-symbol="Nd"] {
-}
-.element[data-symbol="Pm"] {
-}
-.element[data-symbol="Sm"] {
-}
-.element[data-symbol="Eu"] {
-}
-.element[data-symbol="Gd"] {
-}
-.element[data-symbol="Tb"] {
-}
-.element[data-symbol="Dy"] {
-}
-.element[data-symbol="Ho"] {
-}
-.element[data-symbol="Er"] {
-}
-.element[data-symbol="Tm"] {
-}
-.element[data-symbol="Yb"] {
-}
-.element[data-symbol="Lu"] {
-}
-.element[data-symbol="Hf"] {
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+#box2 {
+  grid-column-start: 18;
+}
+
+#box5 {
+  grid-column-start: 13;
+}
+
+#box13 {
+  grid-column-start: 13;
+}
+
+#box91 {
+  grid-area: 9/3/10/4;
+}
+
+#box92 {
+  grid-area: 9/4/10/5;
+}
+
+#box93 {
+  grid-area: 9/5/10/6;
+}
+
+#box94 {
+  grid-area: 9/6/10/7;
+}
+
+#box95 {
+  grid-area: 9/7/10/8;
+}
+
+#box96 {
+  grid-area: 9/8/10/9;
+}
+
+#box97 {
+  grid-area: 9/9/10/10;
+}
+
+#box98 {
+  grid-area: 9/10/10/11;
+}
+
+#box99 {
+  grid-area: 9/11/10/12;
+}
+
+#box100 {
+  grid-area: 9/12/10/13;
+}
+
+#box101 {
+  grid-area: 9/13/10/14;
+}
+
+#box102 {
+  grid-area: 9/14/10/15;
+}
+
+#box103 {
+  grid-area: 9/15/10/16;
+}
+
+#box104 {
+  grid-area: 9/16/10/17;
+}
+
+#box105 {
+  grid-area: 9/17/10/18;
+}
+
+#box106 {
+  grid-area: 10/3/11/4;
+}
+
+#box107 {
+  grid-area: 10/4/11/5;
+}
+
+#box108 {
+  grid-area: 10/5/11/6;
+}
+
+#box109 {
+  grid-area: 10/6/11/7;
+}
+
+#box110 {
+  grid-area: 10/7/11/8;
+}
+
+#box111 {
+  grid-area: 10/8/11/9;
+}
+
+#box112 {
+  grid-area: 10/9/11/10;
+}
+
+#box113 {
+  grid-area: 10/10/11/11;
+}
+
+#box114 {
+  grid-area: 10/11/11/12;
+}
+
+#box115 {
+  grid-area: 10/12/11/13;
+}
+
+#box116 {
+  grid-area: 10/13/11/14;
+}
+
+#box117 {
+  grid-area: 10/14/11/15;
+}
+
+#box118 {
+  grid-area: 10/15/11/16;
+}
+
+#box119 {
+  grid-area: 10/16/11/17;
+}
+
+#box120 {
+  grid-area: 10/17/11/18;
+}
+
+.Diatomic-nonmetal {
+  background-color: #e7ff8f;
+  color: black;
+}
+
+.alkali-metals {
+  background-color: #f66;
+  color: black;
+}
+
+.earth-metals {
+  background-color: #ffdead;
+  color: black;
+}
+
+.trans-metals {
+  background-color: #8486f8;
+  color: black;
+}
+
+.lanthanide {
+  background-color: pink;
+  color: black;
+}
+
+.actinide {
+  background-color: brown;
+  color: black;
+}
+
+.chemicals {
+  background-color: darkgreen;
+  color: black;
+}
+
+.Noble-gas {
+  background-color: #c0ffff;
+  color: black;
+}
+
+.post-trans {
+  background-color: lightgray;
+  color: black;
+}
+
+.metalloid {
+  background-color: #cc9;
+  color: black;
+}
+
+.polyatomic-nonmetal {
+  background-color: #a1ffc3;
+  color: black;
 }
