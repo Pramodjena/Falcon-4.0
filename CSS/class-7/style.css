@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.red {
+  background-color: #ff5733;
+  animation-name: fadeIn;
+}
+
+.blue {
+  background-color: #33a8ff;
+  animation-name: slideIn;
+}
+
+.green {
+  background-color: #33ff57;
+  animation-name: fadeIn;
+}
+
+.yellow {
+  background-color: #ffeb33;
+  animation-name: slideIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
