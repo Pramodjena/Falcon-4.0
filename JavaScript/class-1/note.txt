@@ -1,0 +1,11 @@
+// Variable: Variable can able to store the data.
+
+// syntax: var , let and const(keywords).
+
+// Recommended --> let and const.
+
+// Example: let num = 10;
+
+// Javascript is case-sensitive.(A != a)
+
+// let second num = 1000; (space dosn't allow while declaring variable.)
