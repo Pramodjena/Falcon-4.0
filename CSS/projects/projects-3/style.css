@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.album_container {
+  max-width: 930px;
+  border: 2px solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0 auto;
+  grid-auto-flow: dense;
+}
+.album {
+  border: 1px solid;
+
+  /* width: 300px;
+  height: 200px; */
+}
+#album1 {
+  grid-column: span 1;
+  grid-row: span 3;
+  background-color: red;
+}
+#album2 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: blue;
+}
+#album3 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: yellow;
+}
+#album4 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: violet;
+}
+#album5 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: brown;
+}
+#album6 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: cornflowerblue;
+}
