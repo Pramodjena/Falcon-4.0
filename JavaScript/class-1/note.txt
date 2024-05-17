@@ -1,5 +1,9 @@
 // Variable: Variable can able to store the data.
 
+// You cannot declare the same variable further.
+
+// Example: let name = "Pramod" , let name = "Rajesh"
+
 // syntax: var , let and const(keywords).
 
 // Recommended --> let and const.
