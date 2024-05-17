@@ -15,7 +15,7 @@
 - (*): Multiplication ex: 5*2 = 10
 - (/): Division ex: 10/2 = 5
 - (%): Modulus ex: 7%3 = 1
-- (\* \*): Exponent ex: 2\*\*3 = 8
+- (* *): Exponent ex: 2**3 = 8
 - (++): Increment ex: ++1 = 2
 - (--): Decrement ex: --1 = 0
 
