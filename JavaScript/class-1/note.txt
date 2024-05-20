@@ -17,3 +17,15 @@
 // String is a collection of charcters.
 
 // String should be in " ... "
+
+// Number() : Built-in constructor function
+
+// String() : Built-in constructor function
+
+// Truthy value : true, non-zero numbers(1,-1,2..etc),non-empty string("Pramod"),objects({})
+
+// Falsy value : false, 0, -0, 0n, "", null, undefined, NaN
+
+//   "\n" : next line
+
+// let sentence = "He is a good boy"; 
