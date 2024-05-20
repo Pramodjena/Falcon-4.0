@@ -26,3 +26,17 @@ console.log(sentence.toUpperCase()); // HE IS A GOOD BOY
 console.log(lengthCheck);
 console.log(lengthCheck.trim());
 console.log(lengthCheck);
+
+//todo Task: 1
+// Use all the string methods to demonstrate all the properties with examples.
+
+// Example:
+// let sentence = "He is a good boy"; // 16 char
+
+// console.log(sentence.includes("is"));
+
+//todo Task: 2
+// Declare a sentence and include your name in that and check wheather your name is present or not using `include` method.
+
+// Example:
+// let sentence = Lorem ipsum dolor sit amet pramod consectetur adipisicing elit. Perferendis, nihil.
