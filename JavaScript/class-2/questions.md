@@ -1,5 +1,9 @@
 ## Questions ?
 
+- //todo? Print your birthday in the console using the Date object.
+- //todo? Print the current time in the console using the Date object.
+- //todo? Print your current age in the console using the Date object.
+
 - Q: What does the push method do in JavaScript arrays?
 - Q: What does the pop method do in JavaScript arrays?
 - Q: Given the array let fruits = ["apple", "banana", "mango"];, what will be the result of fruits.push("orange");?
