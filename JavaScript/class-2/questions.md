@@ -1,4 +1,6 @@
-## Questions ?
+# Questions ?
+
+## Date: 21-05-2024 :
 
 - //todo? Print your birthday in the console using the Date object.
 - //todo? Print the current time in the console using the Date object.
@@ -48,3 +50,5 @@ myArray.push(40);
 console.log(myArray.pop());
 console.log(myArray);
 ```
+
+## Date: 22-05-2024 :
