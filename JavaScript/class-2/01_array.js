@@ -114,3 +114,5 @@ let num2 = 200;
 let num3 = 300;
 
 console.log(Array.of(num1, num2, num3)); // instance of an array
+
+// Array.of("Pramod","Swadhin","Priyanka")

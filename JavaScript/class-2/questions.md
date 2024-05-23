@@ -52,3 +52,15 @@ console.log(myArray);
 ```
 
 ## Date: 22-05-2024 :
+
+Exercise 1: Manipulate an Array
+
+- Create an array of numbers.
+- Add a number to the end.
+- Remove the first number.
+
+Exercise 2: Combining Arrays
+
+- Create two arrays of different fruit types.
+- Merge them into one array.
+- Remove any duplicate fruits.
