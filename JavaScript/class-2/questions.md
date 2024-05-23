@@ -64,3 +64,5 @@ Exercise 2: Combining Arrays
 - Create two arrays of different fruit types.
 - Merge them into one array.
 - Remove any duplicate fruits.
+
+## Date: 23-05-2024 :

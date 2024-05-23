@@ -30,7 +30,7 @@ let student = {
   isMarried: false,
   address: { po: "RRL", pin: 751013 },
 };
-// console.log(student);
+console.log(student);
 
 // Constructor :
 let newStudent = new Object();
@@ -45,5 +45,36 @@ newStudent.address = { po: "RRL", pin: 751013 };
 // Accessing object :
 
 // myarray[0]
-console.log(student.name); // dot notation
-console.log(student["marks"]); // bracket notation
+// console.log(student.name); // dot notation
+// console.log(student["marks"]); // bracket notation
+
+// Modifying object :
+
+// dot notation
+student.name = "Rahul";
+student.age = 31;
+console.log(student);
+
+// bracket notation
+student["name"] = "Pramod";
+student["age"] = 26;
+console.log(student);
+
+// Deleting object
+
+delete student.age;
+console.log(student);
+
+// Object keys
+
+let keys = Object.keys(student);
+console.log(keys); // it gives the only keys [ 'name', 'city', 'marks', 'isMarried', 'address' ]
+
+// Object values
+let value = Object.values(student);
+console.log(value);  // it gives you the key values 
+
+// Object entries
+let entry = Object.entries(student);
+console.log(entry);  // it gives you both keys and value
+
