@@ -1,0 +1,28 @@
+// Selectors :
+// To select or catch the html element we use selectors.
+
+// QuerySelector : 
+// QuerySelector is a selector to catch the html element.
+// For example, if you want to catch the first paragraph in the html, you can use "p:first-child" as the QuerySelector.
+
+// QuerySelectorAll :
+// QuerySelectorAll is similar to QuerySelector, but it returns all elements in a node that match the specified selector, not just the first one.
+
+// getElementById :
+// getElementsByClassName :
+
+
+// innerHTML :
+// innerHTML manipulates an element's HTML content including tags.
+// For example, if you want to add a new paragraph to the html, you can use innerHTML to do that.
+// <div> 
+     <p> hey i am pramod </p> 
+   </div>
+
+// innerText :
+// innerText manipulates it's plain text content, excluding HTML tags.
+// For example, if you want to add a new paragraph to the html, you can use innerText to do that.
+// <div> hey i am pramod </div>
+
+
+// create , edit , delete , catch , append 
