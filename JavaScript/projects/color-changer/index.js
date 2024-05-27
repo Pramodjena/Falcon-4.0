@@ -3,31 +3,24 @@ const myName = prompt("Please enter your name: ");
 window.addEventListener("load", () => {
   alert(`Hey ${myName} welcome back`);
 });
+// select the element
 
-const heading = document.querySelector(".heading");
-heading.innerText = `Hey ${myName} welcome back`;
-heading.style.color = "black";
-
-// to select the body tag
 const body = document.querySelector("body");
+const heading = document.querySelector(".heading");
+const color = document.querySelectorAll(".color");
 
-const color = document.querySelectorAll(".color"); // nodeList[]
+// generate random color in hexacode #212121
 
-// random color generator
-// hexacode #212121(grey)
-
-function randomColorGenerator() {
+function generateRandomColor() {
   let randomColor = "#";
   for (let i = 0; i < 6; i++) {
-    randomColor += Math.floor(Math.random() * 16).toString(16); //output: #201564
+    randomColor += Math.floor(Math.random() * 16).toString(16);
   }
   return randomColor;
 }
-// console.log(randomColorGenerator());
 
-function colorChange(e) {
+function colorChanger(e) {
   //   console.log(e.target.id);
-
   switch (e.target.id) {
     case "grey":
       body.style.backgroundColor = "grey";
@@ -43,9 +36,8 @@ function colorChange(e) {
       body.style.backgroundColor = "blue";
       break;
     case "random":
-      body.style.backgroundColor = randomColorGenerator();
+      body.style.backgroundColor = generateRandomColor();
       break;
-
     default:
       body.style.backgroundColor = "white";
       break;
@@ -53,5 +45,5 @@ function colorChange(e) {
 }
 
 color.forEach((color) => {
-  color.addEventListener("click", (e) => colorChange(e));
+  color.addEventListener("click", (e) => colorChanger(e));
 });
