@@ -1,0 +1,10 @@
+.card_container {
+  border: 1px solid;
+  max-width: 300px;
+}
+.image_container img {
+  width: 100%;
+}
+.text_container p {
+  font-weight: bolder;
+}

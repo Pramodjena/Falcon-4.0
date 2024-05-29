@@ -1,0 +1,12 @@
+.main_container {
+  display: flex;
+  gap: 10px;
+}
+.heading {
+  color: chocolate;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+.sub_heading {
+  text-align: center;
+}
