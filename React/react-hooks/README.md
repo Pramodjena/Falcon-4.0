@@ -29,3 +29,13 @@ evenOdd(5); // call
 - Syntax: const [name,setName] = useState("Pramod")
 - const [variable/state, function: to cahnge the value] = useState("")
 - By the help of function we can change/manipulate the value.
+
+## UseRef Hook :
+
+- useRef is a hook that allows you to persist values between renders.
+- Unlike state, changing a useref value does not cause a re-render.
+- useref returns a mutuable ref object with a .current property.
+- Syntax: const ref = useRef(null)
+- It is used to access DOM nodes or elements.
+- It is also used to store values that don't trigger a re-render.
+- It is used to create a reference to a DOM node or a value that persists across re-render.
