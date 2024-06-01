@@ -39,3 +39,22 @@ evenOdd(5); // call
 - It is used to access DOM nodes or elements.
 - It is also used to store values that don't trigger a re-render.
 - It is used to create a reference to a DOM node or a value that persists across re-render.
+
+## UseEffect Hook :
+
+- useEffect is a hook that lets you run some code after rendering.
+- Syntax: useEffect(() => { code to run after render }, [dependencies]).
+- useEffect takes two arguments: a function to run after render, and an optional array of dependencies.
+- If the dependencies array is empty, the effect will only run once after the initial render.
+- If the dependencies array is not empty, the effect will run after every render where the dependencies have
+  changed.
+- useEffect is used to handle side effects, such as making API calls, setting timers, updating the
+  DOM, and more.
+- useEffect is used to handle cleanup, such as removing event listeners, clearing timers, and more.
+- useEffect is used to handle async operations, such as fetching data from an API.
+- useEffect is used to handle DOM mutations, such as updating the DOM, adding event listeners, and
+  more.
+- useEffect is used to handle subscriptions, such as subscribing to a WebSocket, and more.
+- useEffect is used to handle errors, such as catching errors, and more.
+- useEffect is used to handle optimization, such as memoizing values, and more.
+- useEffect is used to handle debugging, such as logging values, and more.
