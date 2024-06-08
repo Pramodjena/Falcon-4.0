@@ -2,10 +2,17 @@
 const express = require("express");
 const fs = require("fs");
 require("dotenv").config();
+const greeting = require("./data");
 
 // setup server
 const app = express();
+
+// middlewares
 app.use(express.json());
+app.use((req, res, next) => {
+  greeting();
+  next();
+});
 
 app.get("/", (req, res) => {
   res.json({ msg: "Hello from server" });
@@ -29,8 +36,14 @@ app.get("/read", (req, res) => {
 
 app.get("/append", (req, res) => {
   const sentence = "I am a SDE-I";
-  fs.appendFileSync("logs.txt", sentence);
+  fs.appendFileSync("./logs.txt", sentence);
   res.json({ msg: "Successfully created" });
+});
+
+app.post("/post", (req, res) => {
+  const user = req.body;
+  fs.appendFileSync("./logs.txt", JSON.stringify(user));
+  res.send(user);
 });
 
 // start server
